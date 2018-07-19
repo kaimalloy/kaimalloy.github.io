@@ -2,7 +2,7 @@ h1 {
 	font-family: Raleway;
 	font-weight: 800;
 	text-transform: uppercase;
-	margin-bottom: 6%;
+	margin-bottom: 4%;
 	margin-left: 2%;
 	margin-top: 2%;
 }
@@ -53,7 +53,7 @@ img {
 	/*TRANSITION*/
 	transition: .4s ease;
   	opacity:0;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.7);
 }
 
 /*TEXT POSITIONING*/
@@ -66,8 +66,8 @@ img {
 
 	color: white;
 	font-family: Dosis;
-	font-size: 20px;
-	line-height: 40px;
+	font-size: 1.3vw;
+	line-height: 2.2vw;
 }
 
 .images:hover .overlay{
@@ -79,6 +79,7 @@ img {
 	float: left;
 	width: 50%;
 	font-family: Dosis;
+	font-size: 1.2vw;
 }
 
 .demo {
