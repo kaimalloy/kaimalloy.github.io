@@ -93,6 +93,9 @@ body {
 }
 
 .projects {
+	/*flex used to even out uneven heights on projects*/
+	display: flex;
+	flex-direction: column;
 	background-color: white;
 	font-family: Open Sans;
   	border-radius: 4px;
@@ -116,6 +119,11 @@ body {
 	opacity: 0.9;
 }
 
+.card-content {
+	flex: 1;
+	padding: 20px 30px 0 30px;
+}
+
 .card-tag {
 	display: flex;
 	margin-bottom: 8px;
@@ -129,10 +137,6 @@ body {
     padding-right: 8px;
 }
 
-.card-content {
-	padding: 20px 30px 30px;
-}
-
 .card-content h4 {
 	font-family: PT Serif;
 	font-size: 28px;
@@ -141,8 +145,39 @@ body {
 
 .card-content p {
 	font-size: 18px;
-	margin-bottom: 0;
+	margin: 10px 0 0;
 	color: #526173;
+}
+
+.buttonDiv {
+	text-align: center;
+	margin: 20px 0 40px;
+}
+
+.button{
+	display: inline-block;
+	width: 100px;
+    line-height: 40px;
+    color: #708090;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    /* box-shadow: h-offset v-offset blur spread color*/
+    box-shadow: 0px 2px 6px 1px rgba(30,45,62,.09);
+    border-radius: 6px;
+    opacity: 0.8;
+    transition: all 0.4s;
+}
+
+.demo {
+	margin-right: 15%;
+}
+
+.button:hover {
+	color: #ffff;
+	background: #f6b93b;
+	box-shadow: 2px 2px 6px 4px rgba(30,45,62,.09), 3px 6px 12px 2px rgba(30,45,62,.15);
+    transform: translateY(-1px);
 }
 
 @media only screen and (max-width: 1200px) {
