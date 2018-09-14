@@ -223,12 +223,23 @@ body {
 	margin: 20px 0 55px;
 }
 
-#bottomPanel i {
-	font-size: 52px;
+#bottomPanel > a {
+	display: inline-block;
+	text-decoration: none;
 }
 
-.fa-linkedin-square, .fa-github-square {
+#linkedin, #github {
 	margin-right: 60px;
+}
+
+#bottomPanel i {
+	color: white;
+	font-size: 52px;
+	transition: transform 0.2s;
+}
+
+#bottomPanel i:hover {
+	transform: scale(1.1);
 }
 
 ul {
@@ -273,6 +284,15 @@ li{
 	height: 0;
 	overflow: hidden;
 	visibility: hidden;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ffffff, #ffffff, rgba(0, 0, 0, 0));
+
+	/*background-color: white;
+	margin: 8px 40px;*/
 }
 
 #footer {
