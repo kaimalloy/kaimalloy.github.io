@@ -204,7 +204,6 @@ body {
 }
 
 #bottomPanel {
-	height: 400px;
 	background: linear-gradient(180deg, #62bdfc 0%, #62bdfc 30%, #8490ff 100%);
 	font-family: Poppins;
 	color: white;
@@ -216,11 +215,11 @@ body {
 #bottomPanel h1 {
 	font-size: 38px;
 	text-transform: uppercase;
-	margin: 25px 0 0;
+	margin: 30px 0 0;
 }
 
 #p1 {
-	margin: 20px 0 55px;
+	margin: 20px 30px 55px;
 }
 
 #bottomPanel > a {
