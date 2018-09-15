@@ -2,6 +2,33 @@ body {
 	margin: 0;
 }
 
+#navBar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+	background: linear-gradient(90deg, #62bdfc 0%, #8490ff 100%);
+	opacity: 1;
+}
+
+#navBar div {
+	float: right;
+	margin-right: 20px;
+}
+
+#navBar a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	font-family: Poppins;
+	font-weight: 600;
+	color: white;
+	text-transform: uppercase;
+	margin: 20px;
+}
+
 #topPanel {
 	height: 400px;
 	background: linear-gradient(90deg, #62bdfc 0%, #8490ff 100%);
@@ -241,12 +268,12 @@ body {
 	transform: scale(1.1);
 }
 
-ul {
+#bottomPanel ul {
 	margin: 55px 0 25px;
 	padding-left: 0;
 }
 
-li{
+#bottomPanel li{
 	display: inline-block;
 }
 
@@ -285,7 +312,7 @@ li{
 	visibility: hidden;
 }
 
-hr {
+#bottomPanel hr {
 	border: 0;
 	height: 2px;
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ffffff, #ffffff, rgba(0, 0, 0, 0));
