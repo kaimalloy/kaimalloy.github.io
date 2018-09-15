@@ -10,7 +10,6 @@ body {
 	padding: 0;
 	z-index: 1;
 	background: linear-gradient(90deg, #62bdfc 0%, #8490ff 100%);
-	opacity: 1;
 }
 
 #navBar div {
@@ -28,6 +27,8 @@ body {
 	text-transform: uppercase;
 	margin: 20px;
 }
+
+
 
 #topPanel {
 	height: 400px;
