@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	min-width: 290px;
 }
 
 #navBar {
@@ -28,6 +29,20 @@ body {
 	margin: 20px;
 }
 
+#navBar #menu {
+	display: none;
+	font-size: 25px;
+	margin: 12px;
+	padding: 0 10px 0;
+	border: solid rgba(255, 255, 255, 0.3) 1px;
+	border-radius: 6px;
+}
+
+@media only screen and (max-width: 455px) {
+	#navBar div {margin-right: 10px}
+	#navBar a:not(#menu) {display: none}
+	#navBar #menu {display: block}
+}
 
 
 #topPanel {
@@ -89,7 +104,7 @@ body {
 
 @media only screen and (max-width: 715px) {
 	#topPanel {height: auto}
-	#content {margin: 20px 0}
+	#content {margin: 63px 0 20px}
 	#profileDiv {clear: both;
 				 width: 100%;
 				 margin: 0 auto;}
@@ -97,6 +112,10 @@ body {
 			   text-align: center;}
 }
 
+
+@media only screen and (max-width: 437px) {
+	#aboutDiv {width: 100%}
+}
 
 
 
@@ -334,6 +353,7 @@ body {
 }
 
 #footer a {
+	display: block;
 	margin: 13px 40px 0 0;
 	float: right;
 	color: white;
