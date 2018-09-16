@@ -9,8 +9,10 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	z-index: 10;
+	z-index: 1;
 	background: linear-gradient(90deg, #62bdfc 0%, #8490ff 100%);
+	/*for bug in mobile view*/
+	margin-bottom: -1px;
 }
 
 #navBar div {
