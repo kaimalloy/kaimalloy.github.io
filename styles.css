@@ -11,7 +11,7 @@ body {
 	padding: 0;
 	z-index: 1;
 	background: linear-gradient(90deg, #62bdfc 0%, #8490ff 100%);
-	border: 0;
+	border: 2px solid red;
 	box-shadow: none;
 }
 
@@ -106,7 +106,7 @@ body {
 
 @media only screen and (max-width: 715px) {
 	#topPanel {height: auto}
-	#content {margin: 65px 0 20px}
+	#content {margin: 67px 0 20px}
 	#profileDiv {clear: both;
 				 width: 100%;
 				 margin: 0 auto;}
