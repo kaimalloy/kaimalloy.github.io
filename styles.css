@@ -12,7 +12,7 @@ body {
 	z-index: 1;
 	background: linear-gradient(90deg, #62bdfc 0%, #8490ff 100%);
 	/*used to fix bug in mobile view*/
-	margin-bottom: -3px;
+	margin-bottom: -1px;
 }
 
 #navBar div {
@@ -57,8 +57,6 @@ body {
 #content {
 	display: inline-block;
 	margin-top: 70px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 #profileDiv {
@@ -68,7 +66,7 @@ body {
 	float: left;
 }
 
-#aboutDiv {
+#introDiv {
 	width: 420px;
 	float: left;
 	text-align: left;
@@ -80,24 +78,24 @@ body {
 	border: 3px solid white;
 }
 
-#aboutDiv h1, #aboutDiv p {
+#introDiv h1, #introDiv p {
 	font-family: Poppins;
 	color: white;
 	font-weight: 200;
 }
 
-#aboutDiv h1 {
+#introDiv h1 {
 	font-size: 36px;
 	line-height: 1.2;
 	margin: 0;
 }
 
-#aboutDiv h1 span {
+#introDiv h1 span {
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
-#aboutDiv p {
+#introDiv p {
 	font-size: 12px;
 	line-height: 1.4;
 	margin-top: 24px;
@@ -110,15 +108,14 @@ body {
 	#profileDiv {clear: both;
 				 width: 100%;
 				 margin: 0 auto;}
-	#aboutDiv {clear: both;
+	#introDiv {clear: both;
 			   text-align: center;}
 }
 
 
 @media only screen and (max-width: 437px) {
-	#aboutDiv {width: 100%}
+	#introDiv {width: 100%}
 }
-
 
 
 
@@ -247,10 +244,59 @@ body {
 
 
 
-
 #middlePanel2 {
-	height: 500px;
+	text-align: center;
+	font-weight: 400;
 }
+
+#aboutDiv {
+	display: inline-block;
+	width: 69%;
+	margin: 50px 0;
+}
+
+#aboutDiv h1 {
+	width: 100%;
+	text-align: left;
+	margin: 0 0 30px;
+	font-family: PT Serif;
+	font-size: 40px;
+}
+
+#aboutDiv img{
+	width: 250px;
+	float: right;
+	margin-right: 40px;
+}
+
+#aboutText {
+	width: 450px;
+	float: left;
+	font-family: Open Sans;
+	color: #526173;
+	line-height: 1.8;
+}
+
+#aboutDiv p {
+	margin-top: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+	#aboutDiv { width: 83%}
+}
+
+@media only screen and (max-width: 910px) {
+	#aboutDiv img {float: none;
+				   margin-right: 0;}
+	#aboutText {float: none;
+				margin: 20px auto;}
+}
+
+@media only screen and (max-width: 750px) {
+	#aboutText { width: 100%}
+}
+
+
 
 #bottomPanel {
 	background: linear-gradient(180deg, #62bdfc 0%, #62bdfc 30%, #8490ff 100%);
@@ -264,11 +310,11 @@ body {
 #bottomPanel h1 {
 	font-size: 38px;
 	text-transform: uppercase;
-	margin: 30px 0 0;
+	margin: 35px 0 0;
 }
 
 #p1 {
-	margin: 20px 30px 55px;
+	margin: 25px 30px 65px;
 }
 
 #bottomPanel > a {
@@ -291,7 +337,7 @@ body {
 }
 
 #bottomPanel ul {
-	margin: 55px 0 25px;
+	margin: 65px 0 25px;
 	padding-left: 0;
 }
 
