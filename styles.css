@@ -3,7 +3,7 @@ body {
 	min-width: 290px;
 }
 
-#navBar {
+/*#navBar {
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -11,7 +11,7 @@ body {
 	padding: 0;
 	z-index: 1;
 	background: linear-gradient(90deg, #62bdfc 0%, #8490ff 100%);
-	/*used to fix bug in mobile view*/
+	used to fix bug in mobile view
 	margin-bottom: -1px;
 }
 
@@ -44,7 +44,45 @@ body {
 	#navBar div {margin-right: 10px}
 	#navBar a:not(#menu) {display: none}
 	#navBar #menu {display: block}
+}*/
+
+.navbar {
+	position: fixed !important;
+	top: 0;
+	width: 100%;
+	padding: 0.75rem 1.25rem !important;
+	z-index: 1;
+	background: linear-gradient(90deg, #62bdfc 0%, #8490ff 100%);
 }
+
+.navbar-toggler {
+	color: white;
+	font-size: 25px !important;
+	padding: 5px 10px !important;
+	border: solid rgba(255, 255, 255, 0.3) 1px !important;
+	border-radius: 6px !important;
+}
+
+.nav-link {
+	font-family: Poppins;
+	font-weight: 600;
+	color: white;
+	text-transform: uppercase;
+}
+
+/*boostrap fix*/
+.nav-link:hover {
+	color: white;
+}
+
+@media (min-width: 576px) {
+	.navbar-expand-sm .navbar-nav .nav-link {
+		padding: 0 !important;
+		margin: 0.5rem 1.25rem !important;
+ 	}
+}
+
+
 
 
 #topPanel {
@@ -73,7 +111,7 @@ body {
 }
 
 #profileDiv img {
-	width: 200px;
+	width: 206px;
 	border-radius: 50%;
 	border: 3px solid white;
 }
@@ -186,6 +224,7 @@ body {
 .card-content h4 {
 	font-family: PT Serif;
 	font-size: 28px;
+	font-weight: bold; /*bootstrap fix*/
 	margin: 0;
 }
 
@@ -223,6 +262,7 @@ body {
 	color: #ffff;
 	background: #f6b93b;
 	box-shadow: 2px 2px 6px 4px rgba(30,45,62,.09), 3px 6px 12px 2px rgba(30,45,62,.15);
+	text-decoration: none; /*bootstrap fix*/
     transform: translateY(-1px);
 }
 
@@ -231,7 +271,6 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
-	/*For the Middle Panel*/
 	#middlePanel1 { grid-template-columns: auto 80% auto;
 					grid-gap: 50px 0;}
 	#leftPadding {grid-area: 1 / 1 / 4 / 2;}
@@ -261,6 +300,7 @@ body {
 	margin: 0 0 30px;
 	font-family: PT Serif;
 	font-size: 40px;
+	font-weight: bold; /*bootstrap fix*/
 }
 
 #aboutDiv img{
@@ -309,6 +349,8 @@ body {
 
 #bottomPanel h1 {
 	font-size: 38px;
+	font-weight: 700; /*bootstrap fix*/
+	line-height: normal; /*bootstrap fix*/
 	text-transform: uppercase;
 	margin: 35px 0 0;
 }
@@ -337,7 +379,7 @@ body {
 }
 
 #bottomPanel ul {
-	margin: 65px 0 25px;
+	margin: 60px 0 30px;
 	padding-left: 0;
 }
 
@@ -384,9 +426,11 @@ body {
 	border: 0;
 	height: 2px;
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ffffff, #ffffff, rgba(0, 0, 0, 0));
+	margin: 8px 0;
+}
 
-	/*background-color: white;
-	margin: 8px 40px;*/
+strong {
+	font-weight: bold !important;
 }
 
 #footer {
@@ -396,13 +440,13 @@ body {
 
 #footer p{
 	display: inline-block;
-	margin-left: 40px;
+	margin: 13px 0 13px 40px; /*bootstrap fix*/
 	float: left;
 }
 
 #footer a {
 	display: block;
-	margin: 13px 40px 0 0;
+	margin: 13px 40px 0 0; /*bootstrap fix*/
 	float: right;
 	color: white;
 	text-decoration: none;
