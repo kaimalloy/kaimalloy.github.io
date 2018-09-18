@@ -53,12 +53,15 @@ body {
 	padding: 0.75rem 1.25rem !important;
 	z-index: 1;
 	background: linear-gradient(90deg, #62bdfc 0%, #8490ff 100%);
+	/*used to fix bug in mobile view*/
+	margin-bottom: -1px;
 }
 
 .navbar-toggler {
-	color: white;
+	color: white !important;
 	font-size: 25px !important;
 	padding: 5px 10px !important;
+	-webkit-appearance: none !important;
 	border: solid rgba(255, 255, 255, 0.3) 1px !important;
 	border-radius: 6px !important;
 }
