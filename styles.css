@@ -3,49 +3,6 @@ body {
 	min-width: 290px;
 }
 
-/*#navBar {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	z-index: 1;
-	background: linear-gradient(90deg, #62bdfc 0%, #8490ff 100%);
-	used to fix bug in mobile view
-	margin-bottom: -1px;
-}
-
-#navBar div {
-	float: right;
-	margin-right: 20px;
-}
-
-#navBar a {
-	display: block;
-	float: left;
-	text-decoration: none;
-	font-family: Poppins;
-	font-weight: 600;
-	color: white;
-	text-transform: uppercase;
-	margin: 20px;
-}
-
-#navBar #menu {
-	display: none;
-	font-size: 25px;
-	margin: 12px;
-	padding: 0 10px 0;
-	border: solid rgba(255, 255, 255, 0.3) 1px;
-	border-radius: 6px;
-}
-
-@media only screen and (max-width: 455px) {
-	#navBar div {margin-right: 10px}
-	#navBar a:not(#menu) {display: none}
-	#navBar #menu {display: block}
-}*/
-
 .navbar {
 	position: fixed !important;
 	top: 0;
@@ -56,6 +13,11 @@ body {
 	/*used to fix bug in mobile view*/
 	margin-bottom: -1px;
 }
+
+/*.navbar img {
+	height: 40px;
+	margin-left: 10px;
+}*/
 
 .navbar-toggler {
 	color: white !important;
