@@ -7,7 +7,7 @@ body {
 	position: fixed !important;
 	top: 0;
 	width: 100%;
-	padding: 0.75rem 1.25rem !important;
+	padding: 12px 20px !important;
 	z-index: 1;
 	background: linear-gradient(90deg, #62bdfc 0%, #8490ff 100%);
 	/*used to fix bug in mobile view*/
@@ -23,6 +23,8 @@ body {
 	color: white !important;
 	font-size: 25px !important;
 	padding: 5px 10px !important;
+	margin-top: 1px !important;
+	margin-bottom: 1px !important;
 	-webkit-appearance: none !important;
 	border: solid rgba(255, 255, 255, 0.3) 1px !important;
 	border-radius: 6px !important;
@@ -43,7 +45,7 @@ body {
 @media (min-width: 576px) {
 	.navbar-expand-sm .navbar-nav .nav-link {
 		padding: 0 !important;
-		margin: 0.5rem 1.25rem !important;
+		margin: 8px 20px !important;
  	}
 }
 

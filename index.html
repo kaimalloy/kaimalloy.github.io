@@ -33,13 +33,8 @@
 				<a class="nav-link" href="#bottomPanel">contact</a>
 			</li>
 		</ul>
-	</div>
-	
+	</div>	
 </nav>
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
-
 
 
 
@@ -130,6 +125,7 @@
 </div>
 
 
+
 <div id="middlePanel2">
 	<div id="aboutDiv">
 		<h1>A little bit about me...</h1>
@@ -150,6 +146,7 @@
 		</div>
 	</div>
 </div>
+
 
 
 <div id="bottomPanel">
@@ -174,5 +171,18 @@
 		<a href="old_sites/v1/index.html">website v1</a>
 	</div>
 </div>
+
+
+<!-- jQuery JS, Bootstrap JS, Smooth Scroll JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.min.js" integrity="sha256-MhIEydYjM8X/lfw31uxgXHB5BCo+bQX6BmFJYmzty7w=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+	$(function () {
+		var scroll = new SmoothScroll('a[href*="#"]', {speed: 700, offset: 64});
+	});
+</script>
+
 </body>
 </html>
