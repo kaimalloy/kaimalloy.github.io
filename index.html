@@ -26,16 +26,16 @@
 	<div class="collapse navbar-collapse" id="bootstrap-nav">
 		<ul class="navbar-nav ml-auto">
 			<li class="nav-item">
-				<a class="nav-link" href="#home">home</a>
+				<a class="nav-link" href="#topPanel">home</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#projects">projects</a>
+				<a class="nav-link" href="#middlePanel1">projects</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#about">about</a>
+				<a class="nav-link" href="#middlePanel2">about</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#contact">contact</a>
+				<a class="nav-link" href="#bottomPanel">contact</a>
 			</li>
 		</ul>
 	</div>	
@@ -43,7 +43,7 @@
 
 
 
-<div id="home">
+<div id="topPanel">
 	<div id="content">
 		<div id="profileDiv">
 			<img src="pics/profilePic.jpg" alt="Profile Picture">
@@ -65,7 +65,8 @@
 </div>
 
 
-<div id="projects">
+
+<div id="middlePanel1">
 	<div id="leftPadding"></div>
 	<div class="cards" id="card1">
 		<img class="card-img" src="pics/blackjack.jpg" alt="BlackJack">
@@ -131,7 +132,7 @@
 
 
 
-<div id="about">
+<div id="middlePanel2">
 	<div id="aboutDiv">
 		<h1>A little bit about me...</h1>
 		<img src="pics/fuko.jpg">
@@ -154,7 +155,7 @@
 
 
 
-<div id="contact">
+<div id="bottomPanel">
 	<h1>Contact</h1>
 	<p id="p1">You can find me on the following platforms. Feel free to send me a message!</p>
 	<a id="linkedin" href="https://www.linkedin.com/in/kaimalloy">
@@ -185,7 +186,7 @@
 
 <script type="text/javascript">
 	$(function () {
-		var scroll = new SmoothScroll('a[href*="#"]', {speed: 700, offset: 64});
+		var scroll = new SmoothScroll('a[href*="#"]', {speed: 700, offset: 64, updateURL: false});
 	});
 </script>
 

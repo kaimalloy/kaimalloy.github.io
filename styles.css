@@ -51,8 +51,8 @@ body {
 
 
 
-/* TOP PANEL*/
-#home {
+
+#topPanel {
 	height: 400px;
 	background: linear-gradient(90deg, #62bdfc 0%, #8490ff 100%);
 	/*Used with display: inline-block to make #content an inline element in order to center*/
@@ -108,7 +108,7 @@ body {
 }
 
 @media only screen and (max-width: 715px) {
-	#home {height: auto}
+	#topPanel {height: auto}
 	#content {margin: 67px 0 20px}
 	#profileDiv {clear: both;
 				 width: 100%;
@@ -117,15 +117,14 @@ body {
 			   text-align: center;}
 }
 
-
 @media only screen and (max-width: 437px) {
 	#introDiv {width: 100%}
 }
 
 
 
-/* MIDDLE PANEL 1*/
-#projects {
+
+#middlePanel1 {
 	display: grid;
 	grid-template-columns: auto 33% 33% auto;
 	grid-gap: 50px;
@@ -235,23 +234,24 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
-	#projects { grid-template-columns: auto 40% 40% auto}
+	#middlePanel1 { grid-template-columns: auto 40% 40% auto}
 }
 
 @media only screen and (max-width: 800px) {
-	#projects { grid-template-columns: auto 80% auto;
+	#middlePanel1 { grid-template-columns: auto 80% auto;
 					grid-gap: 50px 0;}
 	#leftPadding {grid-area: 1 / 1 / 4 / 2;}
 	#rightPadding {grid-area: 1 / 3 / 4 / 4;}
 }
 
 @media only screen and (max-width: 550px) {
-	#projects { grid-template-columns: auto 90% auto}
+	#middlePanel1 { grid-template-columns: auto 90% auto}
 }
 
 
-/* MIDDLE PANEL 2*/
-#about {
+
+
+#middlePanel2{
 	text-align: center;
 	font-weight: 400;
 }
@@ -305,8 +305,9 @@ body {
 }
 
 
-/* BOTTOM PANEL*/
-#contact {
+
+
+#bottomPanel {
 	background: linear-gradient(180deg, #62bdfc 0%, #62bdfc 30%, #8490ff 100%);
 	font-family: Poppins;
 	color: white;
@@ -315,7 +316,7 @@ body {
 	overflow: auto;
 }
 
-#contact h1 {
+#bottomPanel h1 {
 	font-size: 38px;
 	font-weight: 700; /*bootstrap fix*/
 	line-height: normal; /*bootstrap fix*/
@@ -327,7 +328,7 @@ body {
 	margin: 25px 30px 65px;
 }
 
-#contact > a {
+#bottomPanel > a {
 	display: inline-block;
 	text-decoration: none;
 }
@@ -336,22 +337,22 @@ body {
 	margin-right: 60px;
 }
 
-#contact i {
+#bottomPanel i {
 	color: white;
 	font-size: 52px;
 	transition: transform 0.2s;
 }
 
-#contact i:hover {
+#bottomPanel i:hover {
 	transform: scale(1.1);
 }
 
-#contact ul {
+#bottomPanel ul {
 	margin: 60px 0 30px;
 	padding-left: 0;
 }
 
-#contact li{
+#bottomPanel li{
 	display: inline-block;
 }
 
@@ -390,7 +391,7 @@ body {
 	visibility: hidden;
 }
 
-#contact hr {
+#bottomPanel hr {
 	border: 0;
 	height: 2px;
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ffffff, #ffffff, rgba(0, 0, 0, 0));
