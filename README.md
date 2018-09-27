@@ -1,3 +1,3 @@
 # kaimalloy.github.io
 
-Personal Portfolio for Kai Malloy
+Personal Website/Portfolio for Kai Malloy
