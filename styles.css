@@ -394,7 +394,8 @@ body {
 #bottomPanel hr {
 	border: 0;
 	height: 2px;
-	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ffffff, #ffffff, rgba(0, 0, 0, 0));
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1),
+									 rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
 	margin: 8px 0;
 }
 
