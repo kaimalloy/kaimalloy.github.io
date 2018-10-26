@@ -61,17 +61,17 @@ body {
 
 #content {
 	display: inline-block;
-	margin-top: 70px;
+	margin-top: 90px;
 }
-
+	
 #profileDiv {
-	margin-top: 2px;
 	margin-left: 5vw;
 	margin-right: 35px;
 	float: left;
 }
 
 #introDiv {
+	margin-top: 2px;
 	width: 420px;
 	float: left;
 	text-align: left;
@@ -90,13 +90,13 @@ body {
 }
 
 #introDiv h1 {
-	font-size: 36px;
-	line-height: 1.2;
+	font-size: 30px;
 	margin: 0;
 }
 
 #introDiv h1 span {
 	font-weight: 700;
+	font-size: 36px;
 	text-transform: uppercase;
 }
 
@@ -109,15 +109,16 @@ body {
 
 @media only screen and (max-width: 715px) {
 	#topPanel {height: auto}
-	#content {margin: 67px 0 20px}
+	#content {margin: 67px 15px 30px}
 	#profileDiv {clear: both;
 				 width: 100%;
 				 margin: 0 auto;}
 	#introDiv {clear: both;
-			   text-align: center;}
+			   text-align: center;
+			   margin-top: 10px;}
 }
 
-@media only screen and (max-width: 437px) {
+@media only screen and (max-width: 470px) {
 	#introDiv {width: 100%}
 }
 
