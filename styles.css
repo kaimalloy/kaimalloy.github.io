@@ -273,9 +273,9 @@ body {
 }
 
 #aboutDiv img{
-	width: 250px;
+	width: 350px;
 	float: right;
-	margin-right: 40px;
+	margin-top: 90px;
 }
 
 #aboutText {
@@ -292,17 +292,22 @@ body {
 
 @media only screen and (max-width: 1200px) {
 	#aboutDiv { width: 83%}
+	#aboutDiv img{ margin-right: 5vw}
 }
 
-@media only screen and (max-width: 910px) {
+@media only screen and (max-width: 1045px) {
 	#aboutDiv img {float: none;
-				   margin-right: 0;}
+				   margin: 0;}
 	#aboutText {float: none;
 				margin: 20px auto;}
 }
 
 @media only screen and (max-width: 750px) {
 	#aboutText { width: 100%}
+}
+
+@media only screen and (max-width: 600px) {
+	#aboutDiv img{ width: 300px}
 }
 
 
