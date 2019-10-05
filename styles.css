@@ -299,6 +299,7 @@ body {
 	#aboutDiv img {float: none;
 				   margin: 0;}
 	#aboutText {float: none;
+				width: 600px;
 				margin: 20px auto;}
 }
 
