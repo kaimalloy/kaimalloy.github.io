@@ -14,7 +14,7 @@
 	border-spacing:0px;
 	border-collapse:separate;
 	margin: 0 auto;
-	font-family: 'Lato', Verdana, Helvetica, sans-serif;
+	font-family: 'Lato', sans-serif, Helvetica, Verdana;
 }
 
 a {
@@ -81,7 +81,4 @@ a:focus, a:hover {
 /*FOOTNOTE PORTION*/
 #footer {
 	text-align: center;
-	/*display: inline-block;*/
-	/*margin: 13px 0 13px 40px;*/
-	/*float: left;*/
 }
