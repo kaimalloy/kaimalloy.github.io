@@ -77,9 +77,14 @@ a:focus, a:hover {
 	width: 100%;
 }
 
-#appleTD img{   /* fix because apple logo appears bigger */
-	width: 70%;
+#appleTD img{   /* fix to make logo smaller */
+	width: 65%;
 }
+
+#DataLabTD img, #LATD img, #ICSHPTD img{     /* fix to make logo smaller */
+	width: 75%;
+}
+
 
 
 /*FOOTNOTE PORTION*/
