@@ -81,7 +81,7 @@ a:focus, a:hover {
 	width: 65%;
 }
 
-#DataLabTD img, #LATD img, #ICSHPTD img{     /* fix to make logo smaller */
+#DataLabTD img{     /* fix to make logo smaller */
 	width: 75%;
 }
 
