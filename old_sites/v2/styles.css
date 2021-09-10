@@ -416,13 +416,13 @@ strong {
 	overflow: hidden;
 }
 
-#footer1{
+#footer p{
 	display: inline-block;
 	margin: 13px 0 13px 40px; /*bootstrap fix*/
 	float: left;
 }
 
-#footer2 {
+#footer a {
 	display: block;
 	margin: 13px 40px 0 0; /*bootstrap fix*/
 	float: right;
@@ -431,12 +431,12 @@ strong {
 	transition: font-weight 0.2s;
 }
 
-#footer2:hover {
+#footer a:hover {
 	font-weight: bold;
 }
 
 /*Used to keep bold from shifting content*/
-#footer2::after {
+#footer a::after {
 	display: block;
 	content: "website v1";
 	font-weight: bold;
