@@ -1,3 +1,3 @@
 # www.kaimalloy.com
 
-Personal Website/Portfolio for Kai Malloy
+Personal Website for Kai Malloy
